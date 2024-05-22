@@ -10,6 +10,11 @@
   padding: 0;
 }
 
+.header a{
+  text-decoration: none;
+  color: #000000;
+}
+
 .header > div {
   display: flex;
   align-items: center;
@@ -74,6 +79,11 @@
   justify-content: center;
 }
 
+.order-block img{
+  width: 40px;
+  margin-right: 30px;
+}
+
 .order-button {
   display: flex;
   justify-content: center;
@@ -84,6 +94,7 @@
   font-family: "Rubik", sefif;
   font-size: 32px;
   border-radius: 30px;
+  box-shadow: 9px 7px 5px 0px rgba(0,0,0,0.75);
 }
 
 .line {
@@ -124,4 +135,81 @@
 
 .our-benefits .text {
   font-size: 36px;
+}
+
+.about-us{
+  text-align: center;
+  font-family: "Rubik", serif;
+  margin-bottom: 3rem;
+}
+.about-us .items{
+  display: flex;
+  margin-bottom: 3rem;
+}
+.about-us .item{
+  display: flex;
+}
+.about-us .item .statistic{
+  font-size: 40px;
+  color: #f14646;
+}
+.about-us .item .message{
+  font-size: 24px;
+}
+.about-us .head-text{
+  font-size: 96px;
+}
+.about-us .img-bg{
+  border-radius: 50%;
+  background-color: grey;
+
+}
+.about-us img{
+  padding: 45px;
+  width: 4rem;
+}
+
+.contacts{
+  color: #fff;
+  text-align: center;
+  font-family: "Rubik", serif;
+  background-color: gray; /*TODO remove this on background image*/
+  padding: 70px;
+}
+.contacts .menu .item-menu{
+  display: flex;
+  width: 30%;
+  margin: 2rem auto;
+  font-size: 24px;
+}
+.contacts .menu img{
+  width: 30px;
+  height: 30px;
+}
+
+.our-services{
+  text-align: center;
+  font-family: "Rubik", serif;
+}
+.our-services h2{
+  font-size: 50px;
+}
+.services{
+  display: flex;
+  justify-content: space-between;
+}
+.service-item{
+  border-radius: 20px;
+  border: 1px solid #000;
+  width: 25%;
+  padding: 18px;
+}
+.service-item button{
+  background-color: #f14646;
+  border: none;
+  padding: 8px;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 0;
 }
