@@ -12,18 +12,21 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Rubik&display=swap"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/cf2eb54383.js" crossorigin="anonymous"></script>
+    <script src="./index.js" type="text/javascript"></script>
+    <!--TODO перенос с навбара, косая линия на навбаре-->
   </head>
   <body>
     <div class="wrapper">
       <header class="header">
         <div class="first-part">
           <img src="assets/img/logo.png" alt="Logo" class="logo" />
-          <a class="menu-item" href="">О нас</a>
-          <a class="menu-item" href="">Контакты</a>
+          <div class="menu-item" onclick="goToView('about-us')">О нас</div>
+          <div class="menu-item" onclick="goToView('contacts')">Контакты</div>
         </div>
         <div class="second-part">
-          <a class="menu-item" href="">Отзывы</a>
-          <a class="menu-item" href="">Наши услуги</a>
+          <div class="menu-item" onclick="goToView('contacts')">Отзывы</div>
+          <div class="menu-item" onclick="goToView('our-services')">Наши услуги</div>
           <div class="menu-item phone">
             <img src="assets/img/phone.png" alt="Phone" class="phone-img" />
             <a href="tel:+79275877707">+7 (927) 587-7707</a>
@@ -43,7 +46,7 @@
       <div class="order-block">
         <div class="order-button">
           <img src="assets/img/truck.png" alt="truck" />
-          <div>Заказать сейчас</div>
+          <div onclick="goToView('callabck_form')">Заказать сейчас</div>
         </div>
       </div>
       <div class="line"></div>
@@ -105,13 +108,46 @@
           </div>
         </div>
         <div class="other-info">
-          <h2>ООО “ПОРТ ВИКТОРИЯ”</h2>
-          <p>Порт Виктория крупный и опытный партнёр в сфере логистики, за годы накоплен большой опыт в сфере логистических услуг</p>
-          <p style="font-weight: 700;">Главная цель компании сделать качественную логистику доступной</p>
+          <h2>ООО "ПОРТ ВИКТОРИЯ"</h2>
+          <p>Компания-оператор международных морских портов Астраханской области ООО "ПОРТ ВИКТОРИЯ" осуществляет свою<br>
+            деятельность в зоне ответственности Астраханского транспортного узла важнейшего транзитного пункта на Международном<br>
+            транспортном коридоре «Север-Юг», основных ворот России на Каспии.<br>
+            ООО "ПОРТ ВИКТОРИЯ" оказывает следующие услуги:<br>
+            &emsp;• организация мультимодальных контейнерных перевозок по маршруту Астрахань (Россия) Нава Шева (Индия);<br>
+            &emsp;• транспортно-экспедиционное обслуживание в сфере морских и железнодорожных перевозок;<br>
+            перевалка в порту Астрахани с автомобильного, железнодорожного и водного транспорта грузов: масло растительное, зерно<br>
+            (пшеница, кукуруза, ячмень и другие зерновые культуры), пиломатериалы, металлопродукция, контейнеры 20-ти и 40-ка<br>
+            Футовые, прочие грузы;
+            таможенное оформление;<br>
+            &emsp;• перевозка грузов на судах класса река-море по Каспийскому морю в любом направлении;<br>
+            &emsp;• предоставление железнодорожных вагонов различного назначения и фрахт судов.<br>
+            Страны, в которые осуществляется экспорт: Иран, Индия, Туркменистан.</p><br>
         </div>
         <hr>
       </div>
-      <div class="contacts"> <!--TODO background image-->
+      <div class="our-services">
+        <h2>Наши услуги</h2>
+        <div class="services">
+          <div class="service-item">
+            <img src="assets/img/truck_maslo.png">
+            <p>Перевозка пищевых жидкостей</p>
+            
+          </div>
+          <div class="service-item">
+            <img src="assets/img/konteineri.png">
+            <p>Перевозка контейнеров и прочего</p>
+            
+          </div>
+          <div class="service-item">
+            <img src="assets/img/samosval.png">
+            <p>Перевозка насыпных грузов по Астраханской области</p>
+            
+          </div>
+        </div>
+        <button onclick="goToView('callabck_form')">Заказать сейчас</button>
+      </div>
+      <div class="before_call_hr"></div>
+      <div class="contacts">
         <div class="head-text">Контакты</div>
         <div class="menu">
           <div class="item-menu">
@@ -128,32 +164,15 @@
           </div>
         </div>
       </div>
-      <div class="our-services">
-        <h2>Наши услуги</h2>
-        <div class="services">
-          <div class="service-item">
-            <img src="assets/img/truck_maslo.png">
-            <p>Перевозка пищевых жидкостей</p>
-            <button>Заказать сейчас</button>
-          </div>
-          <div class="service-item">
-            <img src="assets/img/konteineri.png">
-            <p>Перевозка контейнеров и прочего</p>
-            <button>Заказать сейчас</button>
-          </div>
-          <div class="service-item">
-            <img src="assets/img/samosval.png">
-            <p>Перевозка насыпных грузов по Астраханской области</p>
-            <button>Заказать сейчас</button>
-          </div>
+      <div class="callabck_form">
+        <h1>Обратная связь</h1>
+        <div class="icons">
+          <i class="fa-brands fa-telegram"></i>
+          <i class="fa-brands fa-whatsapp"></i>
         </div>
       </div>
-      <div class="before_call_hr"></div>
-      <div class="callabck_form">
-        <h2>Обратный звонок</h2>
-        <input placeholder="Ваше имя"/>
-        <input placeholder="Ваш телефон"/>
-        <button>Перезвоните мне</button>
+      <div class="footer">
+        <p>Сделано с любовью</p>
       </div>
     </div>
   </body>
