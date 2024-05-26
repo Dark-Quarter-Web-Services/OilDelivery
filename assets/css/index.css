@@ -44,8 +44,8 @@
 .main {
   background-image: url("../img/main_bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 60rem;
+  background-size: contain;
+  height: 53rem;
   display: flex;
   justify-content: center;
   color: white;
@@ -115,6 +115,7 @@
   font-weight: 400;
   font-size: 128px;
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 .our-benefits .items {
@@ -208,12 +209,12 @@
   display: flex;
   width: 30%;
   margin: 2rem auto;
-  font-size: 24px;
+  font-size: 30px;
 }
 .contacts .menu img{
-  width: 30px;
-  height: 30px;
-  margin-right: 16px;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
 }
 
 .our-services{
@@ -227,13 +228,17 @@
   display: flex;
   justify-content: space-between;
 }
+.services .service-item:nth-of-type(1) img{
+  width: 170px;
+}
 .service-item{
   border-radius: 20px;
   border: 1px solid #000;
   width: 25%;
   padding: 18px;
-  min-height: 17rem;
+  max-height: 18rem;
   position: relative;
+  font-size: 20px;
 }
 .our-services button{
   background-color: #f14646;
@@ -270,4 +275,9 @@ button:hover{
   text-align: center;
   color: #fff;
   background-color: #000000ab;
+  border-top: 3px solid #f14646;
+}
+.footer img{
+  width: 100px;
+  height: 100px;
 }
