@@ -28,7 +28,8 @@
 
 .header .second-part {
   flex: 2;
-  background-color: #ed1212c7;
+  background-color: #008DDA;
+  border-bottom-left-radius: 10px;
 }
 
 .header .phone {
@@ -92,13 +93,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ed1212eb;
+  background-color: #008DDA;
   width: 500px;
   height: 85px;
   font-family: "Rubik", sefif;
   font-size: 32px;
   border-radius: 30px;
   box-shadow: 9px 7px 5px 0px rgba(0,0,0,0.75);
+  cursor: pointer;
 }
 
 .line {
@@ -124,7 +126,7 @@
 }
 
 .our-benefits .item {
-  background-color: #f14646;
+  background-color: #008DDA;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -159,7 +161,7 @@
 }
 .about-us .item .statistic{
   font-size: 40px;
-  color: #f14646;
+  color: #FFC100;
 }
 .about-us .item .message{
   font-size: 24px;
@@ -185,7 +187,7 @@
   font-size: 18px;
   width: 60%;
   margin: 1rem auto;
-  border: 3px solid #f14646;
+  border: 3px solid #FFC100;
   padding: 30px;
   border-radius: 20px;
 }
@@ -209,11 +211,11 @@
   display: flex;
   width: 30%;
   margin: 2rem auto;
-  font-size: 30px;
+  font-size: 40px;
 }
 .contacts .menu img{
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   margin-right: 20px;
 }
 
@@ -233,7 +235,7 @@
 }
 .service-item{
   border-radius: 20px;
-  border: 1px solid #000;
+  border: 1px solid #008DDA;
   width: 25%;
   padding: 18px;
   max-height: 18rem;
@@ -241,7 +243,7 @@
   font-size: 20px;
 }
 .our-services button{
-  background-color: #f14646;
+  background-color: #008DDA;
   border: none;
   padding: 8px;
   font-size: 18px;
@@ -252,7 +254,7 @@
 }
 .before_call_hr{
   margin: 3rem auto;
-  background-color: #f14646;
+  background-color: #008DDA;
   border-radius: 8px;
   padding: 7px;
   width: 70%;
@@ -265,7 +267,7 @@
 }
 .callabck_form .icons{
   font-size: 50px;
-  color: #f14646;
+  color: #FFC100;
 }
 button:hover{
   cursor: pointer;
@@ -275,7 +277,7 @@ button:hover{
   text-align: center;
   color: #fff;
   background-color: #000000ab;
-  border-top: 3px solid #f14646;
+  border-top: 3px solid #FFC100;
 }
 .footer img{
   width: 100px;
