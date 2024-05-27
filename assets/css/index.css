@@ -11,7 +11,7 @@
   padding: 0;
 }
 
-.header a{
+.header a {
   text-decoration: none;
   color: #000000;
 }
@@ -20,6 +20,10 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.header .menu-item {
+  cursor: pointer;
 }
 
 .header .first-part {
@@ -83,10 +87,9 @@
   justify-content: center;
 }
 
-.order-block img{
+.order-block img {
   width: 40px;
   margin-right: 30px;
-  
 }
 
 .order-button {
@@ -144,45 +147,54 @@
   font-size: 36px;
 }
 
-.about-us{
+.about-us {
   text-align: center;
   font-family: "Rubik", serif;
-  
+
   margin-bottom: 3rem;
 }
-.about-us .items{
+
+.about-us .items {
   display: flex;
   width: 70%;
   margin: 3rem auto;
 }
-.about-us .item{
+
+.about-us .item {
   display: flex;
   max-width: 26rem;
 }
-.about-us .item .statistic{
+
+.about-us .item .statistic {
   font-size: 40px;
   color: #FFC100;
 }
-.about-us .item .message{
+
+.about-us .item .message {
   font-size: 24px;
 }
-.about-us .head-text{
+
+.about-us .head-text {
   font-size: 96px;
 }
-.about-us .img-bg{
+
+.about-us .img-bg {
   border-radius: 50%;
   background-color: grey;
 }
-.about-us img{
+
+.about-us img {
   padding: 45px;
   width: 5rem;
   height: 5rem;
 }
-.about-us hr{
+
+.about-us hr {
   margin-right: 15px;
   margin-left: 15px;
 }
-.about-us .other-info p{
+
+.about-us .other-info p {
   text-align: left;
   font-size: 18px;
   width: 60%;
@@ -192,11 +204,11 @@
   border-radius: 20px;
 }
 
-.contacts{
+.contacts {
   color: #fff;
   text-align: center;
   font-family: "Rubik", serif;
-  background-image: url('../img/adress_bg.png'); /*TODO remove this on background image*/
+  background-image: url("../img/adress_bg.png"); /*TODO remove this on background image*/
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
@@ -204,10 +216,12 @@
   padding-top: 5rem;
   margin-top: 3rem;
 }
-.contacts .menu{
+
+.contacts .menu {
   margin-top: 7rem;
 }
-.contacts .menu .item-menu{
+
+.contacts .menu .item-menu {
   display: flex;
   width: 30%;
   margin: 2rem auto;
@@ -219,21 +233,25 @@
   margin-right: 20px;
 }
 
-.our-services{
+.our-services {
   text-align: center;
   font-family: "Rubik", serif;
 }
-.our-services h2{
+
+.our-services h2 {
   font-size: 50px;
 }
-.services{
+
+.services {
   display: flex;
   justify-content: space-between;
 }
-.services .service-item:nth-of-type(1) img{
+
+.services .service-item:nth-of-type(1) img {
   width: 170px;
 }
-.service-item{
+
+.service-item {
   border-radius: 20px;
   border: 1px solid #008DDA;
   width: 25%;
@@ -248,38 +266,44 @@
   padding: 8px;
   font-size: 18px;
   color: #fff;
-  border-radius: 10px; 
+  border-radius: 10px;
   margin-top: 2rem;
   font-size: 30px;
 }
-.before_call_hr{
+
+.before_call_hr {
   margin: 3rem auto;
   background-color: #008DDA;
   border-radius: 8px;
   padding: 7px;
   width: 70%;
 }
-.callabck_form{
+
+.callabck_form {
   width: 25%;
   margin: 2rem auto;
   text-align: center;
   font-family: "Rubik", serif;
 }
-.callabck_form .icons{
+
+.callabck_form .icons {
   font-size: 50px;
   color: #FFC100;
 }
-button:hover{
+
+button:hover {
   cursor: pointer;
 }
-.footer{
+
+.footer {
   padding: 3rem;
   text-align: center;
   color: #fff;
   background-color: #000000ab;
   border-top: 3px solid #FFC100;
 }
-.footer img{
+
+.footer img {
   width: 100px;
   height: 100px;
 }
