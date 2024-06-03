@@ -47,10 +47,14 @@
 }
 
 .main {
-  background-image: url("../img/main_bg.png");
+  background-image: url("../img/oil_main.jpg");
+  opacity: 0.6;
+  width: 100%;
+
+  margin: 2rem auto;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 53rem;
+  height: 73rem;
   display: flex;
   justify-content: center;
   color: white;
@@ -153,7 +157,6 @@
 
   margin-bottom: 3rem;
 }
-
 .about-us .items {
   display: flex;
   width: 70%;
@@ -163,6 +166,10 @@
 .about-us .item {
   display: flex;
   max-width: 26rem;
+}
+
+.about-us .item .content{
+  margin-left: 20px;
 }
 
 .about-us .item .statistic {
@@ -208,11 +215,12 @@
   color: #fff;
   text-align: center;
   font-family: "Rubik", serif;
-  background-image: url("../img/adress_bg.png"); /*TODO remove this on background image*/
+  background-image: url("../img/contacts_bg.jpg"); /*TODO remove this on background image*/
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
-  height: 60rem;
+  height: 90rem;
+  opacity: 0.5;
   padding-top: 5rem;
   margin-top: 3rem;
 }
