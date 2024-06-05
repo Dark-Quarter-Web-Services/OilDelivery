@@ -10,6 +10,16 @@
   font-size: 24px;
   padding: 0;
 }
+.header .triangle{
+  width: 100px; 
+  z-index: auto;
+  height: 0; 
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 107px solid #008DDA;
+  position:absolute;
+  right: 53%;
+}
 
 .header a {
   text-decoration: none;
@@ -28,6 +38,7 @@
 
 .header .first-part {
   flex: 1;
+  margin-right: 10rem;
 }
 
 .header .second-part {
@@ -47,17 +58,15 @@
 }
 
 .main {
-  background-image: url("../img/oil_main.jpg");
-  opacity: 0.6;
+  background-image: url("../img/main_bg_2.jpg");
   width: 100%;
-
   margin: 2rem auto;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 73rem;
+  height: 77rem;
   display: flex;
   justify-content: center;
-  color: white;
+  color: #fff;
   font-family: "Rubik", serif;
   font-weight: 400;
 }
@@ -174,7 +183,7 @@
 
 .about-us .item .statistic {
   font-size: 40px;
-  color: #FFC100;
+  color: #008DDA;
 }
 
 .about-us .item .message {
@@ -206,7 +215,7 @@
   font-size: 18px;
   width: 60%;
   margin: 1rem auto;
-  border: 3px solid #FFC100;
+  border: 3px solid #008DDA;
   padding: 30px;
   border-radius: 20px;
 }
@@ -215,12 +224,11 @@
   color: #fff;
   text-align: center;
   font-family: "Rubik", serif;
-  background-image: url("../img/contacts_bg.jpg"); /*TODO remove this on background image*/
+  background-image: url("../img/contacts_bg_resize.jpg"); /*TODO remove this on background image*/
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
-  height: 90rem;
-  opacity: 0.5;
+  height: 55rem;
   padding-top: 5rem;
   margin-top: 3rem;
 }
@@ -296,7 +304,7 @@
 
 .callabck_form .icons {
   font-size: 50px;
-  color: #FFC100;
+  color: #008DDA;
 }
 
 button:hover {
@@ -308,7 +316,7 @@ button:hover {
   text-align: center;
   color: #fff;
   background-color: #000000ab;
-  border-top: 3px solid #FFC100;
+  border-top: 3px solid #008DDA;
 }
 
 .footer img {
