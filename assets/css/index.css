@@ -63,7 +63,7 @@
   margin: 0 auto;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 77rem;
+  height: 80rem;
   display: flex;
   justify-content: center;
   color: #fff;
@@ -229,7 +229,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
-  height: 55rem;
+  height: 70rem;
   padding-top: 5rem;
   margin-top: 3rem;
 }
