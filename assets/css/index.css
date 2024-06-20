@@ -1,3 +1,8 @@
+html{
+  padding: 0;
+  margin: 0;
+}
+
 .wrapper {
   text-align: center;
   margin: 0 auto;
@@ -323,4 +328,123 @@ button:hover {
 .footer img {
   width: 100px;
   height: 100px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+@media (max-width: 500px) {
+  .main-content .rect {
+    height: 10px;
+    width: 80vw;
+    margin: 10px 0;
+  }
+  .main-content .lower-text {
+    font-size: 23px;
+    text-align: center;
+  }
+  .main{
+    height: 40vh;
+  }
+  .head-text{
+    font-size: 30px;
+  }
+  .header {
+    display: flex;
+    font-family: "Rubik", sefif;
+    font-size: 12px;
+    padding: 0;
+    height: 7vh;
+  }
+  .header .phone {
+    display: none;
+  }
+  .header .first-part{
+    margin-right: 2rem;
+  }
+  .header .triangle{
+    display: none;
+    width: 100px; 
+    z-index: auto;
+    height: 0; 
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 7vh solid #008DDA;
+    position:absolute;
+    right: 56%;
+  }
+  .header img{
+    width: 40px;
+    height: 40px;
+  }
+  .our-benefits .head-text{
+    font-size: 30px;
+  }
+  .our-benefits .items{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 70vw;
+  }
+  .our-benefits .item{
+    margin-bottom: 3rem;
+    width: 60vw;
+  }
+  .our-benefits .item img{
+    width: 50px;
+    height: 50px;
+  }
+  .about-us .head-text{
+    font-size: 60px;
+  }
+  .about-us .items{
+    flex-direction: column;
+  }
+  .about-us .item{
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-us .item .img-bg{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+  }
+  .about-us img{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+  }
+  .about-us .other-info p{
+    font-size: 15px;
+  }
+  .our-services .services{
+    flex-direction: column;
+  }
+  .our-services .service-item{
+    width: 70vw;
+    margin: 2rem auto;
+    font-size: 16px;
+  }
+  .order-block{
+    width: 80vw;
+    margin: 0 auto;
+  }
+  .contacts{
+    height: 30vh;
+    background-size: 80vh 100vw;
+  }
+  .contacts .menu{
+    margin: 0;
+  }
+  .contacts .menu .item-menu{
+    font-size: 18px;
+    margin: 2rem auto;
+    width: 50vw;
+  }
+  .contacts .menu .item-menu img{
+    width: 25px;
+    height: 25px;
+  }
+  .callabck_form h1{
+    font-size: 25px;
+  }
 }
