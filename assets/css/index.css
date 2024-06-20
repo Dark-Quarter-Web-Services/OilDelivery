@@ -359,7 +359,12 @@ button:hover {
     display: none;
   }
   .header .first-part{
-    margin-right: 2rem;
+    margin-right: 0.6rem;
+    justify-content: space-between;
+  }
+  .header .second-part{
+    width: 100px;
+    flex: 1;
   }
   .header .triangle{
     display: none;
